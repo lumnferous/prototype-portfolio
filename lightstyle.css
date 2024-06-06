@@ -1,5 +1,6 @@
+/* positioning */
 body {
-    font-family: Arial, sans-serif;
+    font-family:OCR A Extended;
     margin: 0;
     padding: 0;
     display: flex;
@@ -26,10 +27,12 @@ body {
     transition: transform 0.2s;
 }
 
+/* pop on hover */
 .galleryItem:hover {
     transform: scale(1.1);
 }
 
+/* lightbox positioning*/
 .lightbox {
     display: none;
     position: fixed;
@@ -50,6 +53,7 @@ body {
     max-width: 700px;
 }
 
+/* x button */
 .close {
     position: absolute;
     top: 15px;
