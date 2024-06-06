@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const caption = document.getElementById('caption');
     const closeBtn = document.querySelector('.close');
 
+/* creates display block */
+
     galleryItems.forEach(item => {
         item.addEventListener('click', () => {
             lightbox.style.display = 'block';
@@ -13,9 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+/* x button */
     closeBtn.addEventListener('click', () => {
         lightbox.style.display = 'none';
     });
+
+/* tapping out of image closes display */
 
     lightbox.addEventListener('click', (e) => {
         if (e.target !== lightboxImg) {
