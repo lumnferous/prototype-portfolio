@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightbox Image Gallery</title>
+    <link rel="stylesheet" href="lightstyle.css">
+</head>
+<body>
+    <div class="gallery">
+        <img src="images/bgTosize.png" alt="Image 1" class="galleryItem" >
+        <img src="images/bgTosize.png" alt="Image 2" class="galleryItem">
+        <img src="images/bgTosize.png" alt="Image 3" class="galleryItem"> 
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="lightbox.js"></script>
+</body>
+</html>
