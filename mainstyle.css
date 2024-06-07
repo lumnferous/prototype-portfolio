@@ -64,8 +64,8 @@ body {
 
 #poster2 {
     position: absolute;
-    top: 10px;
-    left: 230px;
+    top: -5px;
+    left: 260px;
     width: 420px;
     -webkit-animation: pop 1s ease-in-out infinite alternate;
     animation: pop 1s ease-in-out infinite alternate;
